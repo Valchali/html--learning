@@ -5,7 +5,7 @@
     </head>
     <body style="background-color: whitesmoke;">
         <div align="center" style="background-color: aqua;"><br><br>
-            <h1 style="color: blue;">FUMI LOWO MI BIZA.</h1>
+            <h1 style="color: blue;">FUMI LOWO MI FE BIZA.</h1>
             <h3>Sun Will Shine On Everything I Do.</h3>
         </div>
 
@@ -27,7 +27,20 @@
             <label for="option-1">0-40</label><br>
             <input type="radio" name="age" value="0-50" id="option-1">
             <label for="option-1">0-50</label>
-            <hr>
+            <form action="">
+                <input type="radio" name="gender" value="Male">Male<br>
+                <input type="radio" name="gender" value="Female">Female<br>
+                <input type="radio" name="gender" value="Other">Other<br><br>
+             </form>
+                <label for="question">Security question</label>
+                <select name="question" id="question">
+                    <option value="question1">What Is Your Nickname?</option> 
+                    <option value="question2">What Is Your Realname?</option> 
+                    <option value="question3">Are You Tall Or Short?</option> 
+                </select><br><br>
+                <label for="answer">Security question answer:</label>
+                <input type="text" id="answer" name="answer">
+                <hr>
         </div>
         
         <div align="center">
@@ -39,7 +52,6 @@
                 <label for="Password">Password:</label>
                 <input type="password" id="Password" name="Password" placeholder="Enter Your Password" required></label><br><br>
                 <button style="background-color: blue;">Submit</button>
-
         </div>
     </body>
 </html>
