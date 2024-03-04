@@ -11,8 +11,8 @@ p{
     text-align: center;
     line-height: 30px;
     letter-spacing: 3px;
-    column-count: 3;
-    column-gap 60px;
+    column-count: 2;
+    column-gap: 60px;
 }
 
 ol{
@@ -21,10 +21,10 @@ ol{
     border-color: crimson;*/
     /* border: 4px solid crimson; */
     border-bottom: 4px dotted crimson;
-    border-left: 8px dashed crimson;
+    border-left: 8px dashed #4ddc14;
 }
 li{
     list-style-type: square;
-    text-shadow: 2px 2px lightgray;
-
+    /* text-shadow: 2px 2px lightgray; */
+    text-shadow: 2px 2px #ece90c;
 }

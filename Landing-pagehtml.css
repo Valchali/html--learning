@@ -1,0 +1,17 @@
+.Annie{
+    color: blue;
+}
+.Emerald{
+    color: aqua;
+}
+.Chali{
+color: brown;
+}
+.Annie.Chali{
+    color: red;
+    border: 4px dashed #2b08f5;
+}
+h1{
+    color: yellowgreen;
+    border: 1px dashed #2b08f5;
+}
