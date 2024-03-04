@@ -1,8 +1,8 @@
-.Annie{
+/* .Annie{
     color: blue;
 }
 .Emerald{
-    color: aqua;
+    color: #e62c89;
 }
 .Chali{
 color: brown;
@@ -14,4 +14,36 @@ color: brown;
 h1{
     color: yellowgreen;
     border: 1px dashed #2b08f5;
+}
+#content{
+    background-color:#ebebeb ;
+    padding: 20px;
+} */
+
+/*div p{
+    color: purple;
+}*/
+/*a[href='https://www.thenetninja.co.uk']{
+    background-color: #3d3;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+a[href='https://www.google.com']{
+    color: white;
+    background-color: red;
+    border: blue solid;
+}*/
+
+div{
+    color: lightcoral;
+    border: 1px solid gray;
+    margin: 40px;
+    font-weight: bold;
+}
+p{
+    color: crimson;
+    border: inherit;
+    margin: inherit;
 }
