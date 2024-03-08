@@ -122,3 +122,15 @@ footer{
     text-align: center;
 }
 
+/* pseudo code */
+nav li a:hover{
+    text-decoration: underline;
+}
+.images li:hover{
+    position: relative;
+    top: -4px;
+}
+form input:focus{
+    border: 4px dashed #4b4b4b;
+    outline: none;
+}
